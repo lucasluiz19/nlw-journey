@@ -16,13 +16,8 @@ const router = createBrowserRouter([
     path: "/trips/:tripsId",
     element: <TripDetailsPage/>,
     
-  },
-  {
-    path: "/lucas",
-    element: (
-      <div>Lucas</div>
-    )
   }
+  
 ]);
 
 
